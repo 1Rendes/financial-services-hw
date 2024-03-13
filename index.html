@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="logo">
+          <svg width="39" height="31" fill="#28A745">
+            <use href="./images/icons.svg#header-logo"></use>
+          </svg>
+          <a class="logo-first" href="index.html">
+            Finance&nbsp;<span class="logo-second">Ledger</span></a
+          >
+        </div>
+        <nav class="nav">
+          <ul class="header-menu">
+            <li>
+              <button class="menu-butt" id="go-to-hero">Home</button>
+            </li>
+            <li>
+              <button class="menu-butt" id="go-to-purposes">About</button>
+            </li>
+            <li>
+              <button class="menu-butt" id="go-to-cases">Cases</button>
+            </li>
+            <li>
+              <button class="menu-butt" id="go-to-blog">Blog</button>
+            </li>
+            <li>
+              <button class="menu-butt" id="go-to-feedback">Contact</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero section" id="hero">
+      <h1 class="hero-header">The Sky Is The Limit</h1>
+      <p class="hero-paragraph">We provide world class financial assistance</p>
+      <button class="button" type="button" id="go-to-purposes-hero">
+        <span class="button-arrow">
+          <svg width="9" height="18" fill="white">
+            <use href="./images/icons.svg#right-arrow"></use>
+          </svg>
+        </span>
+        Read More
+      </button>
+    </section>
+    <section class="purposes section" id="purposes">
+      <picture class="purposes-pic">
+        <source
+          srcset="./images/purposes320.jpg 1x, ./images/purposes320-2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/purposes768.jpg 1x, ./images/purposes768-2x.jpg 2x"
+          media="(min-width: 768px) and (max-width: 1359px)"
+        />
+        <img
+          class="purposes-photo"
+          srcset="./images/purposes.jpg 1x, ./images/purposes-2x.jpg 2x"
+          src="./images/purposes.jpg"
+          alt="Team photo"
+        />
+      </picture>
+
+      <div class="purposes-paragraph">
+        <h3 class="header3-purpose">What you are looking for</h3>
+        <h2 class="header2-purpose">We provide bespoke solutions</h2>
+        <p class="paragraph-purpose">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <button class="button-stroke" type="button" id="go-to-cases-purpose">
+          Read More
+        </button>
+      </div>
+    </section>
+    <section class="cases section" id="cases">
+      <h3 class="cases-header3">This is what we do</h3>
+      <h2 class="cases-header2">Business Cases</h2>
+      <p class="cases-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+        sapiente!
+      </p>
+      <ul class="cases-photos">
+        <li class="cases-container">
+          <picture class="cases-pic">
+            <source
+              srcset="./images/desktop320.jpg 1x, ./images/desktop320-2x.jpg 2x"
+              media="(max-width: 1359px)"
+            />
+            <img
+              class="cases-photo-items"
+              srcset="./images/desktop.jpg 1x, ./images/desktop-2x.jpg 2x"
+              src="./images/desktop.jpg"
+              alt="Desktop"
+            />
+          </picture>
+        </li>
+        <li class="cases-container">
+          <picture class="cases-pic">
+            <source
+              srcset="
+                ./images/diagrams320.jpg    1x,
+                ./images/diagrams320-2x.jpg 2x
+              "
+              media="(max-width: 1359px)"
+            />
+            <img
+              class="cases-photo-items"
+              srcset="./images/diagrams.jpg 1x, ./images/diagrams-2x.jpg 2x"
+              src="./images/diagrams.jpg"
+              alt="Diagrams"
+            />
+          </picture>
+        </li>
+        <li class="cases-container">
+          <picture class="cases-pic">
+            <source
+              srcset="
+                ./images/handshake320.jpg    1x,
+                ./images/handshake320-2x.jpg 2x
+              "
+              media="(max-width: 1359px)"
+            />
+            <img
+              class="cases-photo-items"
+              srcset="./images/handshake.jpg 1x, ./images/handshake-2x.jpg 2x"
+              src="./images/handshake.jpg"
+              alt="Handshake"
+            />
+          </picture>
+        </li>
+        <li class="cases-container">
+          <picture class="cases-pic">
+            <source
+              srcset="
+                ./images/teamplay320.jpg    1x,
+                ./images/teamplay320-2x.jpg 2x
+              "
+              media="(max-width: 1359px)"
+            />
+            <img
+              class="cases-photo-items"
+              srcset="./images/teamplay.jpg 1x, ./images/teamplay-2x.jpg 2x"
+              src="./images/teamplay.jpg"
+              alt="Teamplay"
+            />
+          </picture>
+        </li>
+        <li class="cases-container">
+          <picture class="cases-pic">
+            <source
+              srcset="./images/working320.jpg 1x, ./images/working320-2x.jpg 2x"
+              media="(max-width: 1359px)"
+            />
+            <img
+              class="cases-photo-items"
+              srcset="./images/working.jpg 1x, ./images/working-2x.jpg 2x"
+              src="./images/working.jpg"
+              alt="Working"
+            />
+          </picture>
+        </li>
+        <li class="cases-container">
+          <picture class="cases-pic">
+            <source
+              srcset="
+                ./images/skyscrapers320.jpg    1x,
+                ./images/skyscrapers320-2x.jpg 2x
+              "
+              media="(max-width: 1359px)"
+            />
+            <img
+              class="cases-photo-items"
+              srcset="
+                ./images/skyscrapers.jpg    1x,
+                ./images/skyscrapers-2x.jpg 2x
+              "
+              src="./images/skyscrapers.jpg"
+              alt="Skyscrapers"
+            />
+          </picture>
+        </li>
+      </ul>
+    </section>
+    <section class="blog section" id="blog">
+      <div class="blog-coffee">
+        <h3 class="blog-header3">April 16 2020</h3>
+        <h2 class="blog-header2">Blog Post One</h2>
+        <p class="blog-paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <button class="button-stroke" type="button">Read Our Blog</button>
+      </div>
+      <picture class="blog-picture">
+        <source
+          srcset="
+            ./images/blog-coffee320.jpg    1x,
+            ./images/blog-coffee320-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./images/blog-coffee768.jpg    1x,
+            ./images/blog-coffee768-2x.jpg 2x
+          "
+          media="(max-width: 1359px)"
+        />
+        <img
+          class="blog-photo"
+          srcset="./images/blog-coffee.jpg 1x, ./images/blog-coffee-2x.jpg 2x"
+          src="./images/blog-coffee.jpg"
+          alt="Desktop and coffee"
+        />
+      </picture>
+    </section>
+    <section class="cases section">
+      <h3 class="cases-header3">Who we are</h3>
+      <h2 class="cases-header2">Our Professional Team</h2>
+      <p class="cases-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+        sapiente!
+      </p>
+      <ul class="team-list">
+        <li class="team-item">
+          <div class="overlay-box">
+            <picture class="blog-picture">
+              <source
+                srcset="
+                  ./images/john-doe320.jpg    1x,
+                  ./images/john-doe320-2x.jpg 2x
+                "
+                media="(max-width: 1359px)"
+              />
+              <img
+                class="team-photo"
+                srcset="./images/john-doe.jpg 1x, ./images/john-doe-2x.jpg 2x"
+                src="./images/john-doe.jpg"
+                alt="John Doe Photo"
+              />
+            </picture>
+            <div class="overlay"></div>
+            <ul class="team-social-list">
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h4 class="team-list-header4">John Doe</h4>
+          <p class="cases-item-paragraph">President</p>
+        </li>
+        <li class="team-item">
+          <div class="overlay-box">
+            <picture class="blog-picture">
+              <source
+                srcset="
+                  ./images/jane-doe320.jpg    1x,
+                  ./images/jane-doe320-2x.jpg 2x
+                "
+                media="(max-width: 1359px)"
+              />
+              <img
+                class="team-photo"
+                srcset="./images/jane-doe.jpg 1x, ./images/jane-doe-2x.jpg 2x"
+                src="./images/jane-doe.jpg"
+                alt="Jane Doe Photo"
+              />
+            </picture>
+            <div class="overlay"></div>
+            <ul class="team-social-list">
+              <li class="team-social-list-item">
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-list-item">
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-list-item">
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-list-item">
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h4 class="team-list-header4">Jane Doe</h4>
+          <p class="cases-item-paragraph">Vice President</p>
+        </li>
+        <li class="team-item">
+          <div class="overlay-box">
+            <picture class="blog-picture">
+              <source
+                srcset="
+                  ./images/steve-smith320.jpg    1x,
+                  ./images/steve-smith320-2x.jpg 2x
+                "
+                media="(max-width: 1359px)"
+              />
+              <img
+                class="team-photo"
+                srcset="
+                  ./images/steve-smith.jpg    1x,
+                  ./images/steve-smith-2x.jpg 2x
+                "
+                src="./images/steve-smith.jpg"
+                alt="Steve Smith Photo"
+              />
+            </picture>
+            <div class="overlay"></div>
+            <ul class="team-social-list">
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="team-social-link" href="/facebook">
+                  <svg class="team-icon" width="39" height="31">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h4 class="team-list-header4">Steve Smith</h4>
+          <p class="cases-item-paragraph">Marketing Head</p>
+        </li>
+      </ul>
+    </section>
+    <section class="feedback section" id="feedback">
+      <picture class="feedback-pic">
+        <source
+          srcset="
+            ./images/callbackman320.jpg    1x,
+            ./images/callbackman320-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./images/callbackman768.jpg    1x,
+            ./images/callbackman768-2x.jpg 2x
+          "
+          media="(max-width: 1359px)"
+        />
+        <img
+          class="feedback-img"
+          srcset="./images/callbackman.jpg 1x, ./images/callbackman-2x.jpg 2x"
+          src="./images/callbackman.jpg"
+          alt="Man calling back"
+        />
+      </picture>
+      <form class="feedback-form">
+        <h2>Request Callback</h2>
+        <input
+          type="text"
+          name="user-name"
+          class="form-name"
+          placeholder="Enter your name"
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="form-name"
+          placeholder="Enter email*"
+          required
+        />
+        <button class="submit-btn" type="submit">Send</button>
+      </form>
+    </section>
+    <footer>
+      <ul>
+        <li>
+          <a href="/facebook">
+            <svg class="footer-icon" width="39" height="31">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/facebook">
+            <svg class="footer-icon" width="39" height="31">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/facebook">
+            <svg class="footer-icon" width="39" height="31">
+              <use href="./images/icons.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/facebook">
+            <svg class="footer-icon" width="39" height="31">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p>Copyright © 2021 - FinanceLedger</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
